@@ -1,0 +1,153 @@
+/* Global Style
+-------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #2f3061;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #e79375;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    line-height: 1;
+}
+h2 {
+    font-size: 38px;
+}
+h1, h2 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    margin: 0;
+    text-shadow: 1.4px 1.4px rgb(36, 39, 43);
+}
+.shadow {
+    text-shadow: 5px 5px rgb(36, 39, 43);
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+
+/* Navbar
+-------------------------------*/
+#navbar {
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+    font-size: 19px;
+    padding-left: 14.5em;
+}
+#nav, #nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1;
+}
+#nav a {
+    display: block;
+    width: 130px;
+    text-decoration: none;
+}
+#nav li {
+    float: left;
+    width: 130px;
+    cursor: pointer;
+}
+#nav li a:hover {
+    color: #fff8f8;
+}
+#nav li:hover {
+    background: #2f3061;
+    padding: 5px;
+}
+#nav li ul {
+    position: absolute;
+    width: 130px;
+    left: -999em;
+}
+#nav li ul li a:hover {
+    color:#fff8f8;
+    background: #666464;
+    padding: 5px;
+}
+#nav li:hover ul {
+    left: auto;
+    background: #2f3061;
+    display: block;
+}
+
+
+/* Profile
+-------------------------------*/
+header {
+    background: #2f3061;
+    color: #fff8f8;
+}
+
+
+/* Projects
+-------------------------------*/
+.projects {
+    background: #f5fffa;
+}
+.projects .btn {
+    color: #fff8f8;
+    background: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(65, 66, 107, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #2f3061;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+
+/* Work Experience
+-------------------------------*/
+.work-experience {
+    background: #ffe4e1;
+}
+
+
+/* Education
+-------------------------------*/
+
+
+/* Contact Info
+-------------------------------*/
+footer {
+    background: #666464;
+    color: #fff8f8;
+}
